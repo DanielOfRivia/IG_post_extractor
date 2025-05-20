@@ -1,0 +1,4 @@
+openai-whisper==20240930
+opencv-python==4.11.0.86
+paddleocr==2.10.0
+paddlepaddle-gpu==3.0.0
