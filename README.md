@@ -125,50 +125,14 @@ Once the text is extracted, the post data becomes structured and searchable. You
 pip install -r requirements.txt
 ```
 
-Contents of `requirements.txt` (example):
-
-```
-selenium
-requests
-yt-dlp
-instaloader
-```
-
 ### Install dependencies for `process_posts.ipynb`:
 
 ```bash
 pip install -r requirements2.txt
 ```
 
-(Your `requirements2.txt` might include packages like `pytesseract`, `opencv-python`, `speechrecognition`, etc.)
-
 ---
 
-## 🛠️ How the Code Works (Example Snippets)
-
-### Parsing `session.txt` file
-
-To read sessionid and folder path from a `.txt` file like:
-
-```
-sessionid=abc123
-link_to_folder=https://instagram.com/saved/folder-name
-```
-
-Use:
-
-```python
-def parse_session_file(filepath):
-    session_data = {}
-    with open(filepath, 'r') as file:
-        for line in file:
-            if '=' in line:
-                key, value = line.strip().split('=', 1)
-                session_data[key] = value
-    return session_data['sessionid'], session_data['link_to_folder']
-```
-
----
 
 ## 📌 Notes
 
@@ -181,4 +145,4 @@ def parse_session_file(filepath):
 
 ## 📬 Contact
 
-If you’d like to discuss this project, collaborate, or learn more, feel free to reach out via [GitHub](https://github.com/) or [LinkedIn](https://linkedin.com/).
+If you’d like to discuss this project, collaborate, or learn more, feel free to reach out via [GitHub](https://github.com/DanielOfRivia/) or [LinkedIn](https://www.linkedin.com/in/danylo-ustymenko-5b5459223/).
