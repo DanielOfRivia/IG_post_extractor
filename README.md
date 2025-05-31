@@ -115,6 +115,8 @@ Once the text is extracted, the post data becomes structured and searchable. You
 
 > This transforms your Instagram archive into a powerful, personal search engine.
 
+Explore examples of queries and their corresponding answers generated using NotebookLM in the `examples` folder. These examples are based on the extracted data from your Instagram posts. Additionally, you can view a mindmap created by NotebookLM to visualize connections and themes across your content.
+
 ---
 
 ## ⚙️ Installation
